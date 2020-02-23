@@ -1,8 +1,8 @@
-The goal of this project is to analyze a corpus of hundreds of old music texts using modern tools of data science, 
-namely natural language processing and machine learning.
+This project is a collaboration with Dr. Anas Ghrab (http://anas.ghrab.tn/en/), professor of musicology at the Music Institute in Sousse, Tunisia.
 
-The raw data currently consists of the 37 documents encoded in XML format. Each XML file basically contains the text content of the document 
-along with some metadata, including the author, the source of the document, and a set of index terms or tags.
+The goal of this project is to analyze a corpus of old music texts using modern tools of data science, namely natural language processing and machine learning.
+
+The raw data currently consists of the 37 documents encoded in XML format. Each XML file basically contains the text content of the document along with some metadata, including the author, the source of the document, and a set of index terms or tags.  The data is automatically pulled from an online database (http://saramusik.org/) maintained by Dr. Anas Ghrab.
 
 Some of the research questions we aim to answer include: 
 
