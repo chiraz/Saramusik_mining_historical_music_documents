@@ -1,6 +1,6 @@
 This project is a collaboration with Dr. Anas Ghrab (http://anas.ghrab.tn/en/), professor of musicology at the Music Institute in Sousse, Tunisia.
 
-The goal of this project is to analyze a corpus of old music texts using modern tools of data science, namely natural language processing and machine learning.
+The goal of this project is to analyze a corpus of old music texts using modern tools of data science, natural language processing and machine learning.
 
 The documents are automatically pulled from an online database maintained by Dr. Anas Ghrab, residing at http://saramusik.org/. The database currently comprises only 37 documents, but is expected to increase to hundreds of documents within a year. 
 
