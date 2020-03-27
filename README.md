@@ -1,15 +1,15 @@
-This project is a collaboration with Dr. Anas Ghrab (http://anas.ghrab.tn/en/), professor of musicology at the Music Institute in Sousse, Tunisia.
+# Introduction
 
-The goal of this project is to analyze a corpus of old music texts using modern tools of data science, natural language processing and machine learning.
+This project is a collaboration with [Dr. Anas Ghrab](http://anas.ghrab.tn/en/), professor of musicology at the Music Institute, University of Sousse, Tunisia.
 
-The documents are automatically pulled from an online database maintained by Dr. Anas Ghrab, residing at http://saramusik.org/. The database currently comprises only 37 documents, but is expected to increase to hundreds of documents within a year. 
+The goal of this project is to analyze the [Saramusik digital corpus](http://saramusik.org/) using modern tools of data science, natural language processing and machine learning. Saramusik is an online catalogue of (mostly old) Arabic texts on music, with currently a few (less than 100) electronic texts, created and maintained by Dr. Anas Ghrab.
 
-The documents are encoded in XML format based on the Text Encoding Initiative (TEI). In addition to the textual content of the document, each xml file contains some metadata such as the author, the source of the document, and a set of index terms or tags.
+The documents are automatically pulled from the [Saramusik online database](http://saramusik.org/). The database currently comprises a little less than 50 documents, but is set to increase to hundreds of documents within a year. 
 
-Some of the research questions we aim to answer include: 
+The documents are encoded in XML format based on the [Text Encoding Initiative (TEI)](https://tei-c.org/). In addition to the textual content of the document, each xml file contains some metadata such as the author, the source of the document, and a set of **tags** that indicate the genre(s) of the document.
 
-1. Are documents of the same tag more similar than documents of different tags?
-2. Can we group the documents in a small number of clusters based on their content similarity? 
-And to what extent do these clusters agree with the manual tags?
-3. How similar/dissimilar are documents of the same/different tag, geographic location, and time period? 
+Some of the preliminary research questions we aim to answer are:
 
+1. Can we group the documents into a small number of groups (*clusters*) of documents with similar content?
+2. Which vocabulary terms most/best characterize the content of each cluster?
+3. How do these clusters correlate with other document characteristics, such as: i) tags, ii) geographic location, and iii) time period?  In other words, do documents of the same cluster necessarily have the same tags, or belong to the same time period?
